@@ -47,8 +47,9 @@
             });
         }
     </script>
-
+    <!-- JS -->
     <script defer type="module" src="./assets/js/projects.js"></script>
+    <script defer src="./assets/js/animation.js"></script>
 </head>
 
 <body>
@@ -75,7 +76,7 @@
     <section id="welcome">
         <div class="grid">
             <div class="welcome-img">
-                <img class="light-shadow" src="assets/img/vektor_dk.png" alt="autor photo">
+                <img class="light-shadow" src="assets/img/vektor_dkTiny.png" alt="autor photo">
             </div>
             <div class="welcome-text grid">
                 <h2>
@@ -104,17 +105,16 @@
             <!-- dynamically shown projects -->
         </ul>
         <!-- showMore projectu -->
-        <label class="showMore" id="showMore">
-            <input type="checkbox" id="moreBtn">
+        <label class="showMore hidden" id="showMore">
+            <input type="checkbox" id="moreBtn" hidden>
             <span class="showMore__text">View more projects</span>
         </label>
     </section>
-    </section>
 
     <section id="about">
-        <h3>About</h3>
-        <div class="grid">
-            <div class="about-text">
+        <h3 class="hidden">About</h3>
+        <div class="grid hidden">
+            <div class="about-text hidden">
                 <p>I'm a Junior software developer with a desire to be a better version of myself everyday. I am looking
                     for a job where I could extend my career and show my personality.</p>
                 <p>Currently I'm studying Object oriented programming and www application programming at Technical
@@ -122,12 +122,12 @@
                     FreeCodeCamp. Also try to get tricks from every YouTube developer out there. There are a lot of
                     them...</p>
             </div>
-            <div class="about-hobbies">
+            <div class="about-hobbies hidden">
                 <H4>My hobbies</H4>
                 <p>When I am not pushing pixels, you'll find me cooking, choking people for fun (I am purple belt in
                     Brazilian Jiu Jitsu), meditating, traveling or watching videos about building container houses.</p>
             </div>
-            <div class="about-facts">
+            <div class="about-facts hidden">
                 <h4>Random facts</h4>
                 <div class="grid">
                     <span> &#8226; I drink a lot of tea</span>
@@ -139,7 +139,7 @@
         </div>
     </section>
 
-    <section id="skills" class=" flex-col">
+    <section id="skills" class=" flex-col hidden">
         <h3>Skills &amp; Tools</h3>
         <p>Here is my set of weapons I use to make things happen. Not all are mentioned as I am learning something new
             every day and I am also an&nbsp;ex&#8209;developer in the engineering industry. Proficiency ranges from
@@ -153,77 +153,77 @@
             </span>
         </label>
 
-        <ul id="favourites" class="tabcontent" style="display:flex">
-            <li class="item">
+        <ul id="favourites" class="tabcontent">
+            <li class="item hidden">
                 <img loading="lazy" src="assets/icons/react-original.svg" alt="react">
                 <h5>React</h5>
-            <li class="item">
+            <li class="item hidden">
                 <img loading="lazy" src="assets/icons/javascript.svg" alt="javascript">
                 <h5>JavaScript</h5>
             </li>
-            <!-- <li class="item">
+            <!-- <li class="item hidden">
                 <img loading="lazy" src="assets/icons/nodejs-original.svg" alt="Node.js">
                 <h5>Node.js</h5>
             </li>-->
-            <li class="item">
+            <li class="item hidden">
                 <img loading="lazy" src="assets/icons/html5-original.svg" alt="HTML">
                 <h5>HTML</h5>
             </li>
-            <li class="item">
+            <li class="item hidden">
                 <img loading="lazy" src="assets/icons/css3-original.svg" alt="CSS">
                 <h5>CSS</h5>
             </li>
-            <li class="item">
+            <li class="item hidden">
                 <img loading="lazy" src="assets/icons/sass-original.svg" alt="Sass">
                 <h5>Sass</h5>
             </li>
-            <li class="item">
+            <li class="item hidden">
                 <img loading="lazy" src="assets/icons/styled.png" alt="Styled-components">
                 <h5>Styled-components</h5>
             </li>
-            <li class="item">
+            <li class="item hidden">
                 <img loading="lazy" src="assets/icons/vscode-original.svg" alt="VSCode">
                 <h5>VS Code</h5>
             </li>
         </ul>
         <ul id="others" class="tabcontent" style="display:none">
-            <li class="item">
+            <li class="item hidden">
                 <img loading="lazy" src="assets/icons/docker-original.svg" alt="Docker">
                 <h5>Docker</h5>
             </li>
-            <li class="item">
+            <li class="item hidden">
                 <img loading="lazy" src="assets/icons/csharp-original.svg" alt="C#">
                 <h5>C#</h5>
             </li>
-            <li class="item">
+            <li class="item hidden">
                 <img loading="lazy" src="assets/icons/java-original.svg" alt="Java">
                 <h5>Java</h5>
             </li>
-            <li class="item">
+            <li class="item hidden">
                 <img loading="lazy" src="assets/icons/php-original.svg" alt="PHP">
                 <h5>PHP</h5>
             </li>
-            <li class="item">
+            <li class="item hidden">
                 <img loading="lazy" src="assets/icons/git-original.svg" alt="Git">
                 <h5>Git</h5>
             </li>
-            <li class="item">
+            <li class="item hidden">
                 <img loading="lazy" src="assets/icons/github-original.svg" alt="GitHub">
                 <h5>GitHub</h5>
             </li>
-            <li class="item">
+            <li class="item hidden">
                 <img loading="lazy" src="assets/icons/mysql-original.svg" alt="MySQL">
                 <h5>MySQL</h5>
             </li>
-            <li class="item">
+            <li class="item hidden">
                 <img loading="lazy" src="assets/icons/oracle-original.svg" alt="Oracle">
                 <h5>Oracle</h5>
             </li>
-            <li class="item">
+            <li class="item hidden">
                 <img loading="lazy" src="assets/icons/bootstrap-original.svg" alt="Bootstrap">
                 <h5>Bootstrap</h5>
             </li>
-            <li class="item">
+            <li class="item hidden">
                 <img loading="lazy" src="assets/icons/tailwindcss-plain.svg" alt="Tailwind">
                 <h5>Tailwind</h5>
             </li>
@@ -238,11 +238,11 @@
     </div>
 
     <section id="contact">
-        <div class="flex-col">
+        <div class="flex-col hidden">
             <h3>Get in Touch</h3>
             <p>Don't be shy. Contact me any time, through any method below! <br> Or feel free to just say hi. I like
                 that too.</p>
-            <form id="contact-form" class="grid">
+            <form id="contact-form" class="grid hidden">
                 <input type="hidden" name="contact_number">
                 <input type="text" placeholder="Name" name="user_name" required>
                 <input type="email" placeholder="Email" name="user_email" required>
@@ -250,12 +250,12 @@
                 <input class="button" type="submit" value="Send it">
 
 
-                <ul class="personal">
+                <ul class="personal hidden">
                     <li><a href="mailto:kolarskydominik@gmail.com">kolarskydominik@gmail.com</a></li>
                     <li><a href="tel:+420606909527">+420 606 909 527</a></li>
                 </ul>
 
-                <ul class="social">
+                <ul class="social hidden">
                     <li><a href="https://github.com/dominikkolarsky/" target="_blank">
                             <svg viewBox="0 0 128 128" height="40px">
                                 <g fill="#d4d4d4">

@@ -4,7 +4,7 @@ import data from '../projects.json' assert {type: 'json'};
 const projects = document.getElementById('projects');
 
 projects.innerHTML = data.filter((projects, index) => index < 3).map((projects) => {
-    return `<li class="project__item">
+    return `<li class="project__item hidden">
     <div class="project__item--img">
         <img loading="lazy" src="${projects.img}" alt="${projects.alt}">
     </div>
@@ -54,7 +54,7 @@ moreBtn.addEventListener('click', AddMore)
 
 function AddMore() {
     projects.innerHTML += data.filter((projects, index) => index > 2).map((projects) => {
-        return `<li class="project__item">
+        return `<li class="project__item show2">
         <div class="project__item--img">
             <img loading="lazy" src="${projects.img}" alt="${projects.alt}">
         </div>
