@@ -437,6 +437,8 @@ h5 {
         flex-wrap: wrap;
         place-content: center;
 
+        
+
         .project__item {
             position: relative;
             display: flex;
@@ -536,6 +538,7 @@ h5 {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        width: 100%;
 
         .showMore__text {
             text-align: center;

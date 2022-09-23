@@ -492,6 +492,7 @@ h5 {
 }
 #portfolio .showMore {
   display: flex;
+  width: 100%;
 }
 #portfolio .showMore .showMore__text {
   text-align: center;

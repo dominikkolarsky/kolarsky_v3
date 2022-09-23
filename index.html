@@ -48,7 +48,7 @@
         }
     </script>
 
-    <script type="module" src="./assets/js/projects.js"></script>
+    <script defer type="module" src="./assets/js/projects.js"></script>
 </head>
 
 <body>
@@ -82,7 +82,8 @@
                     <span class="name1">DOMINIK</span><br>
                     <span class="name2">KOLARSKY</span>
                 </h2>
-                <p class="leading">Full&#8209;stack&nbsp;developer&nbsp;/ Full&#8209;time&nbsp;learner&nbsp;/ Googler</p>
+                <p class="leading">Full&#8209;stack&nbsp;developer&nbsp;/ Full&#8209;time&nbsp;learner&nbsp;/ Googler
+                </p>
                 <p class="leading leading-more">I eat, sleep and breathe JavaScript of every kind.</p>
                 <a href="#contact" class="button btn-leading">Get in touch</a>
             </div>
@@ -102,6 +103,12 @@
         <ul class="projects" id="projects">
             <!-- dynamically shown projects -->
         </ul>
+        <!-- showMore projectu -->
+        <label class="showMore" id="showMore">
+            <input type="checkbox" id="moreBtn">
+            <span class="showMore__text">View more projects</span>
+        </label>
+    </section>
     </section>
 
     <section id="about">

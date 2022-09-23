@@ -25,7 +25,8 @@
         "description": "Landing page made as a test task as part of a job interview.",
         "github": "https://github.com/dominikkolarsky/job-interview-task",
         "link": "https://dominikkolarsky.github.io/job-interview-task"
-    },
+    }
+    ,
     {
         "name": "DB Login App",
         "img": "assets/img/php-login-app.png",
