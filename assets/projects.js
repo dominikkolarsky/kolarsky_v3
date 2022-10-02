@@ -1,11 +1,11 @@
-[
+const data = [
     {
         "name": "DB Book App",
         "img": "assets/img/php-book-app.png",
         "alt": "DB Book App",
         "tech": "PHP / MySQL",
         "description": "Project to practice PHP, DB MySQL and custom design.",
-        "github": "https: //github.com/dominikkolarsky/php-books-app_deploy",
+        "github": "https://github.com/dominikkolarsky/php-books-app_deploy",
         "link": "https://kolarsky.eu/assets/books_app/index.php"
     },
     {
@@ -81,3 +81,4 @@
         "link": "https://dominikkolarsky.github.io/aviosalon/"
     }
 ]
+export default data;

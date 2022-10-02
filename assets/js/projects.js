@@ -1,5 +1,5 @@
 // dynamicke vykreslovani projektu
-import data from '../projects.json' assert {type: 'json'};
+import data from '../projects.js';
 
 const projects = document.getElementById('projects');
 
