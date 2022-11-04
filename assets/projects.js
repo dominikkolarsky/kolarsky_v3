@@ -1,12 +1,21 @@
 const data = [
     {
+        "name": "Obecník.cz",
+        "img": "assets/img/obecnik.png",
+        "alt": "presentation Obecník",
+        "tech": "React / Styled Comp.",
+        "description": "Restaurant and pizzeria web presentation. Life project.",
+        "github": "https://github.com/dominikkolarsky/obecnik-pizzerie-app",
+        "link": "https://obecnik.cz"
+    },
+    {
         "name": "DB Book App",
         "img": "assets/img/php-book-app.png",
         "alt": "DB Book App",
         "tech": "PHP / MySQL",
         "description": "Project to practice PHP, DB MySQL and custom design.",
         "github": "https://github.com/dominikkolarsky/php-books-app_deploy",
-        "link": "https://kolarsky.eu/assets/books_app/index.php"
+        "link": "https://kolarsky.eu/portfolio/assets/books_app/index.php"
     },
     {
         "name": "ToDo App",
@@ -33,7 +42,7 @@ const data = [
         "tech": "PHP / MySQL",
         "description": "An exam (6 hours limit) to test PHP, DB MySQL and custom design.",
         "github": "https://github.com/dominikkolarsky/php-login-app_deploy",
-        "link": "https://kolarsky.eu/assets/login_app/index.php"
+        "link": "https://kolarsky.eu/portfolio/assets/login_app/index.php"
     },
     {
         "name": "My website v1",
